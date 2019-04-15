@@ -1,0 +1,740 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="700.0" prefWidth="1366.0" style="-fx-background-color: Aqua;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.MediumController">
+    <children>
+        <Button fx:id="btnQuit" layoutX="1129.0" layoutY="584.0" mnemonicParsing="false" onAction="#btnQuitAction" prefHeight="38.0" prefWidth="80.0" text="Quit" textFill="#f20808">
+            <font>
+                <Font name="System Bold" size="20.0" />
+            </font>
+         <effect>
+            <InnerShadow />
+         </effect>
+        </Button>
+        <Button fx:id="btnPrevious" layoutX="1018.0" layoutY="584.0" mnemonicParsing="false" onAction="#btnPreviousAction" prefHeight="44.0" prefWidth="87.0" text="&lt;Back" textFill="#a87809">
+            <font>
+                <Font name="System Bold" size="20.0" />
+            </font>
+         <effect>
+            <InnerShadow height="29.9" radius="13.7075" width="26.93" />
+         </effect>
+        </Button>
+        <Button fx:id="btnSolve" alignment="CENTER" contentDisplay="CENTER" layoutX="1129.0" layoutY="477.0" mnemonicParsing="false" onAction="#btnSolveAction" prefHeight="82.0" prefWidth="80.0" text=" View Solve" textAlignment="CENTER" textFill="#da0b9c" wrapText="true">
+            <font>
+                <Font name="System Bold Italic" size="20.0" />
+            </font>
+         <effect>
+            <InnerShadow />
+         </effect>
+        </Button>
+        <GridPane gridLinesVisible="true" layoutX="65.0" layoutY="26.0" prefHeight="648.0" prefWidth="648.0" style="-fx-background-color: White;">
+            <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            </columnConstraints>
+            <rowConstraints>
+                <RowConstraints maxHeight="72.0" minHeight="5.0" prefHeight="72.0" />
+                <RowConstraints maxHeight="72.0" minHeight="10.0" prefHeight="72.0" vgrow="SOMETIMES" />
+                <RowConstraints maxHeight="72.0" minHeight="10.0" prefHeight="72.0" vgrow="SOMETIMES" />
+                <RowConstraints maxHeight="72.0" minHeight="10.0" prefHeight="72.0" vgrow="SOMETIMES" />
+                <RowConstraints maxHeight="72.0" minHeight="10.0" prefHeight="73.0" vgrow="SOMETIMES" />
+                <RowConstraints maxHeight="72.0" minHeight="10.0" prefHeight="72.0" vgrow="SOMETIMES" />
+                <RowConstraints maxHeight="72.0" minHeight="10.0" prefHeight="72.0" vgrow="SOMETIMES" />
+                <RowConstraints maxHeight="72.0" minHeight="10.0" prefHeight="72.0" vgrow="SOMETIMES" />
+                <RowConstraints maxHeight="72.0" minHeight="10.0" prefHeight="72.0" vgrow="SOMETIMES" />
+            </rowConstraints>
+            <children>
+                <TextField fx:id="tf01" alignment="CENTER" onMouseClicked="#tf01Action" prefHeight="72.0" prefWidth="72.0" GridPane.columnIndex="1">
+                    <font>
+                        <Font name="System Bold" size="31.0" />
+                    </font>
+               <effect>
+                  <InnerShadow />
+               </effect>
+                </TextField>
+                <TextField fx:id="tf00" alignment="CENTER" onMouseClicked="#tf00Action" prefHeight="72.0" prefWidth="72.0">
+                    <font>
+                        <Font name="System Bold" size="31.0" />
+                    </font>
+               <effect>
+                  <InnerShadow />
+               </effect>
+                </TextField>
+                <TextField fx:id="tf02" alignment="CENTER" onMouseClicked="#tf02Action" prefHeight="72.0" prefWidth="72.0" GridPane.columnIndex="2">
+                    <font>
+                        <Font name="System Bold" size="31.0" />
+                    </font>
+               <effect>
+                  <InnerShadow />
+               </effect>
+                </TextField>
+                <TextField fx:id="tf03" alignment="CENTER" onMouseClicked="#tf03Action" prefHeight="72.0" prefWidth="72.0" GridPane.columnIndex="3">
+                    <font>
+                        <Font name="System Bold" size="31.0" />
+                    </font>
+               <effect>
+                  <InnerShadow />
+               </effect>
+                </TextField>
+                <TextField fx:id="tf04" alignment="CENTER" onMouseClicked="#tf04Action" prefHeight="72.0" prefWidth="72.0" GridPane.columnIndex="4">
+                    <font>
+                        <Font name="System Bold" size="31.0" />
+                    </font>
+               <effect>
+                  <InnerShadow />
+               </effect>
+                </TextField>
+                <TextField fx:id="tf05" alignment="CENTER" onMouseClicked="#tf05Action" prefHeight="72.0" prefWidth="72.0" GridPane.columnIndex="5">
+                    <font>
+                        <Font name="System Bold" size="31.0" />
+                    </font>
+               <effect>
+                  <InnerShadow />
+               </effect>
+                </TextField>
+                <TextField fx:id="tf06" alignment="CENTER" onMouseClicked="#tf06Action" prefHeight="72.0" prefWidth="72.0" GridPane.columnIndex="6">
+                    <font>
+                        <Font name="System Bold" size="31.0" />
+                    </font>
+               <effect>
+                  <InnerShadow />
+               </effect>
+                </TextField>
+                <TextField fx:id="tf07" alignment="CENTER" onMouseClicked="#tf07Action" prefHeight="72.0" prefWidth="72.0" GridPane.columnIndex="7">
+                    <font>
+                        <Font name="System Bold" size="31.0" />
+                    </font>
+               <effect>
+                  <InnerShadow />
+               </effect>
+                </TextField>
+                <TextField fx:id="tf08" alignment="CENTER" onMouseClicked="#tf08Action" prefHeight="72.0" prefWidth="72.0" GridPane.columnIndex="8">
+                    <font>
+                        <Font name="System Bold" size="31.0" />
+                    </font>
+               <effect>
+                  <InnerShadow />
+               </effect>
+                </TextField>
+                <TextField fx:id="tf10" alignment="CENTER" onMouseClicked="#tf10Action" prefHeight="72.0" prefWidth="72.0" GridPane.rowIndex="1">
+                    <font>
+                        <Font name="System Bold" size="31.0" />
+                    </font>
+               <effect>
+                  <InnerShadow />
+               </effect>
+                </TextField>
+                <TextField fx:id="tf11" alignment="CENTER" onMouseClicked="#tf11Action" prefHeight="72.0" prefWidth="72.0" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                    <font>
+                        <Font name="System Bold" size="31.0" />
+                    </font>
+               <effect>
+                  <InnerShadow />
+               </effect>
+                </TextField>
+                <TextField fx:id="tf12" alignment="CENTER" onMouseClicked="#tf12Action" prefHeight="72.0" prefWidth="72.0" GridPane.columnIndex="2" GridPane.rowIndex="1">
+                    <font>
+                        <Font name="System Bold" size="31.0" />
+                    </font>
+               <effect>
+                  <InnerShadow />
+               </effect>
+                </TextField>
+                <TextField fx:id="tf13" alignment="CENTER" onMouseClicked="#tf13Action" prefHeight="72.0" prefWidth="72.0" GridPane.columnIndex="3" GridPane.rowIndex="1">
+                    <font>
+                        <Font name="System Bold" size="31.0" />
+                    </font>
+               <effect>
+                  <InnerShadow />
+               </effect>
+                </TextField>
+                <TextField fx:id="tf14" alignment="CENTER" onMouseClicked="#tf14Action" prefHeight="72.0" prefWidth="72.0" GridPane.columnIndex="4" GridPane.rowIndex="1">
+                    <font>
+                        <Font name="System Bold" size="31.0" />
+                    </font>
+               <effect>
+                  <InnerShadow />
+               </effect>
+                </TextField>
+                <TextField fx:id="tf15" alignment="CENTER" onMouseClicked="#tf15Action" prefHeight="72.0" prefWidth="72.0" GridPane.columnIndex="5" GridPane.rowIndex="1">
+                    <font>
+                        <Font name="System Bold" size="31.0" />
+                    </font>
+               <effect>
+                  <InnerShadow />
+               </effect>
+                </TextField>
+                <TextField fx:id="tf16" alignment="CENTER" onMouseClicked="#tf16Action" prefHeight="72.0" prefWidth="72.0" GridPane.columnIndex="6" GridPane.rowIndex="1">
+                    <font>
+                        <Font name="System Bold" size="31.0" />
+                    </font>
+               <effect>
+                  <InnerShadow />
+               </effect>
+                </TextField>
+                <TextField fx:id="tf17" alignment="CENTER" onMouseClicked="#tf17Action" prefHeight="72.0" prefWidth="72.0" GridPane.columnIndex="7" GridPane.rowIndex="1">
+                    <font>
+                        <Font name="System Bold" size="31.0" />
+                    </font>
+               <effect>
+                  <InnerShadow />
+               </effect>
+                </TextField>
+                <TextField fx:id="tf18" alignment="CENTER" onMouseClicked="#tf18Action" prefHeight="72.0" prefWidth="72.0" GridPane.columnIndex="8" GridPane.rowIndex="1">
+                    <font>
+                        <Font name="System Bold" size="31.0" />
+                    </font>
+               <effect>
+                  <InnerShadow />
+               </effect>
+                </TextField>
+                <TextField fx:id="tf20" alignment="CENTER" onMouseClicked="#tf20Action" prefHeight="72.0" prefWidth="72.0" GridPane.rowIndex="2">
+                    <font>
+                        <Font name="System Bold" size="31.0" />
+                    </font>
+               <effect>
+                  <InnerShadow />
+               </effect>
+                </TextField>
+                <TextField fx:id="tf21" alignment="CENTER" onMouseClicked="#tf21Action" prefHeight="72.0" prefWidth="72.0" GridPane.columnIndex="1" GridPane.rowIndex="2">
+                    <font>
+                        <Font name="System Bold" size="31.0" />
+                    </font>
+               <effect>
+                  <InnerShadow />
+               </effect>
+                </TextField>
+                <TextField fx:id="tf22" alignment="CENTER" onMouseClicked="#tf22Action" prefHeight="72.0" prefWidth="72.0" GridPane.columnIndex="2" GridPane.rowIndex="2">
+                    <font>
+                        <Font name="System Bold" size="31.0" />
+                    </font>
+               <effect>
+                  <InnerShadow />
+               </effect>
+                </TextField>
+                <TextField fx:id="tf23" alignment="CENTER" onMouseClicked="#tf23Action" prefHeight="72.0" prefWidth="72.0" GridPane.columnIndex="3" GridPane.rowIndex="2">
+                    <font>
+                        <Font name="System Bold" size="31.0" />
+                    </font>
+               <effect>
+                  <InnerShadow />
+               </effect>
+                </TextField>
+                <TextField fx:id="tf24" alignment="CENTER" onMouseClicked="#tf24Action" prefHeight="72.0" prefWidth="72.0" GridPane.columnIndex="4" GridPane.rowIndex="2">
+                    <font>
+                        <Font name="System Bold" size="31.0" />
+                    </font>
+               <effect>
+                  <InnerShadow />
+               </effect>
+                </TextField>
+                <TextField fx:id="tf25" alignment="CENTER" onMouseClicked="#tf25Action" prefHeight="72.0" prefWidth="72.0" GridPane.columnIndex="5" GridPane.rowIndex="2">
+                    <font>
+                        <Font name="System Bold" size="31.0" />
+                    </font>
+               <effect>
+                  <InnerShadow />
+               </effect>
+                </TextField>
+                <TextField fx:id="tf26" alignment="CENTER" onMouseClicked="#tf26Action" prefHeight="72.0" prefWidth="72.0" GridPane.columnIndex="6" GridPane.rowIndex="2">
+                    <font>
+                        <Font name="System Bold" size="31.0" />
+                    </font>
+               <effect>
+                  <InnerShadow />
+               </effect>
+                </TextField>
+                <TextField fx:id="tf27" alignment="CENTER" onMouseClicked="#tf27Action" prefHeight="72.0" prefWidth="72.0" GridPane.columnIndex="7" GridPane.rowIndex="2">
+                    <font>
+                        <Font name="System Bold" size="31.0" />
+                    </font>
+               <effect>
+                  <InnerShadow />
+               </effect>
+                </TextField>
+                <TextField fx:id="tf28" alignment="CENTER" onMouseClicked="#tf28Action" prefHeight="72.0" prefWidth="72.0" GridPane.columnIndex="8" GridPane.rowIndex="2">
+                    <font>
+                        <Font name="System Bold" size="31.0" />
+                    </font>
+               <effect>
+                  <InnerShadow />
+               </effect>
+                </TextField>
+                <TextField fx:id="tf30" alignment="CENTER" onMouseClicked="#tf30Action" prefHeight="72.0" prefWidth="72.0" GridPane.rowIndex="3">
+                    <font>
+                        <Font name="System Bold" size="31.0" />
+                    </font>
+               <effect>
+                  <InnerShadow />
+               </effect>
+                </TextField>
+                <TextField fx:id="tf31" alignment="CENTER" onMouseClicked="#tf31Action" prefHeight="72.0" prefWidth="72.0" GridPane.columnIndex="1" GridPane.rowIndex="3">
+                    <font>
+                        <Font name="System Bold" size="31.0" />
+                    </font>
+               <effect>
+                  <InnerShadow />
+               </effect>
+                </TextField>
+                <TextField fx:id="tf32" alignment="CENTER" onMouseClicked="#tf32Action" prefHeight="72.0" prefWidth="72.0" GridPane.columnIndex="2" GridPane.rowIndex="3">
+                    <font>
+                        <Font name="System Bold" size="31.0" />
+                    </font>
+               <effect>
+                  <InnerShadow />
+               </effect>
+                </TextField>
+                <TextField fx:id="tf33" alignment="CENTER" onMouseClicked="#tf33Action" prefHeight="72.0" prefWidth="72.0" GridPane.columnIndex="3" GridPane.rowIndex="3">
+                    <font>
+                        <Font name="System Bold" size="31.0" />
+                    </font>
+               <effect>
+                  <InnerShadow />
+               </effect>
+                </TextField>
+                <TextField fx:id="tf34" alignment="CENTER" onMouseClicked="#tf34Action" prefHeight="72.0" prefWidth="72.0" GridPane.columnIndex="4" GridPane.rowIndex="3">
+                    <font>
+                        <Font name="System Bold" size="31.0" />
+                    </font>
+               <effect>
+                  <InnerShadow />
+               </effect>
+                </TextField>
+                <TextField fx:id="tf35" alignment="CENTER" onMouseClicked="#tf35Action" prefHeight="72.0" prefWidth="72.0" GridPane.columnIndex="5" GridPane.rowIndex="3">
+                    <font>
+                        <Font name="System Bold" size="31.0" />
+                    </font>
+               <effect>
+                  <InnerShadow />
+               </effect>
+                </TextField>
+                <TextField fx:id="tf36" alignment="CENTER" onMouseClicked="#tf36Action" prefHeight="72.0" prefWidth="72.0" GridPane.columnIndex="6" GridPane.rowIndex="3">
+                    <font>
+                        <Font name="System Bold" size="31.0" />
+                    </font>
+               <effect>
+                  <InnerShadow />
+               </effect>
+                </TextField>
+                <TextField fx:id="tf37" alignment="CENTER" onMouseClicked="#tf37Action" prefHeight="72.0" prefWidth="72.0" GridPane.columnIndex="7" GridPane.rowIndex="3">
+                    <font>
+                        <Font name="System Bold" size="31.0" />
+                    </font>
+               <effect>
+                  <InnerShadow />
+               </effect>
+                </TextField>
+                <TextField fx:id="tf38" alignment="CENTER" onMouseClicked="#tf38Action" prefHeight="72.0" prefWidth="72.0" GridPane.columnIndex="8" GridPane.rowIndex="3">
+                    <font>
+                        <Font name="System Bold" size="31.0" />
+                    </font>
+               <effect>
+                  <InnerShadow />
+               </effect>
+                </TextField>
+                <TextField fx:id="tf40" alignment="CENTER" onMouseClicked="#tf40Action" prefHeight="72.0" prefWidth="72.0" GridPane.rowIndex="4">
+                    <font>
+                        <Font name="System Bold" size="31.0" />
+                    </font>
+               <effect>
+                  <InnerShadow />
+               </effect>
+                </TextField>
+                <TextField fx:id="tf41" alignment="CENTER" onMouseClicked="#tf41Action" prefHeight="72.0" prefWidth="72.0" GridPane.columnIndex="1" GridPane.rowIndex="4">
+                    <font>
+                        <Font name="System Bold" size="31.0" />
+                    </font>
+               <effect>
+                  <InnerShadow />
+               </effect>
+                </TextField>
+                <TextField fx:id="tf43" alignment="CENTER" onMouseClicked="#tf43Action" prefHeight="72.0" prefWidth="72.0" GridPane.columnIndex="3" GridPane.rowIndex="4">
+                    <font>
+                        <Font name="System Bold" size="31.0" />
+                    </font>
+               <effect>
+                  <InnerShadow />
+               </effect>
+                </TextField>
+                <TextField fx:id="tf42" alignment="CENTER" onMouseClicked="#tf42Action" prefHeight="72.0" prefWidth="72.0" GridPane.columnIndex="2" GridPane.rowIndex="4">
+                    <font>
+                        <Font name="System Bold" size="31.0" />
+                    </font>
+               <effect>
+                  <InnerShadow />
+               </effect>
+                </TextField>
+                <TextField fx:id="tf44" alignment="CENTER" onMouseClicked="#tf44Action" prefHeight="72.0" prefWidth="72.0" GridPane.columnIndex="4" GridPane.rowIndex="4">
+                    <font>
+                        <Font name="System Bold" size="31.0" />
+                    </font>
+               <effect>
+                  <InnerShadow />
+               </effect>
+                </TextField>
+                <TextField fx:id="tf45" alignment="CENTER" onMouseClicked="#tf45Action" prefHeight="72.0" prefWidth="72.0" GridPane.columnIndex="5" GridPane.rowIndex="4">
+                    <font>
+                        <Font name="System Bold" size="31.0" />
+                    </font>
+               <effect>
+                  <InnerShadow />
+               </effect>
+                </TextField>
+                <TextField fx:id="tf46" alignment="CENTER" onMouseClicked="#tf46Action" prefHeight="72.0" prefWidth="72.0" GridPane.columnIndex="6" GridPane.rowIndex="4">
+                    <font>
+                        <Font name="System Bold" size="31.0" />
+                    </font>
+               <effect>
+                  <InnerShadow />
+               </effect>
+                </TextField>
+                <TextField fx:id="tf47" alignment="CENTER" onMouseClicked="#tf47Action" prefHeight="72.0" prefWidth="72.0" GridPane.columnIndex="7" GridPane.rowIndex="4">
+                    <font>
+                        <Font name="System Bold" size="31.0" />
+                    </font>
+               <effect>
+                  <InnerShadow />
+               </effect>
+                </TextField>
+                <TextField fx:id="tf48" alignment="CENTER" onMouseClicked="#tf48Action" prefHeight="72.0" prefWidth="72.0" GridPane.columnIndex="8" GridPane.rowIndex="4">
+                    <font>
+                        <Font name="System Bold" size="31.0" />
+                    </font>
+               <effect>
+                  <InnerShadow />
+               </effect>
+                </TextField>
+                <TextField fx:id="tf50" alignment="CENTER" onMouseClicked="#tf50Action" prefHeight="72.0" prefWidth="72.0" GridPane.rowIndex="5">
+                    <font>
+                        <Font name="System Bold" size="31.0" />
+                    </font>
+               <effect>
+                  <InnerShadow />
+               </effect>
+                </TextField>
+                <TextField fx:id="tf51" alignment="CENTER" onMouseClicked="#tf51Action" prefHeight="72.0" prefWidth="72.0" GridPane.columnIndex="1" GridPane.rowIndex="5">
+                    <font>
+                        <Font name="System Bold" size="31.0" />
+                    </font>
+               <effect>
+                  <InnerShadow />
+               </effect>
+                </TextField>
+                <TextField fx:id="tf52" alignment="CENTER" onMouseClicked="#tf52Action" prefHeight="72.0" prefWidth="72.0" GridPane.columnIndex="2" GridPane.rowIndex="5">
+                    <font>
+                        <Font name="System Bold" size="31.0" />
+                    </font>
+               <effect>
+                  <InnerShadow />
+               </effect>
+                </TextField>
+                <TextField fx:id="tf53" alignment="CENTER" onMouseClicked="#tf53Action" prefHeight="72.0" prefWidth="72.0" GridPane.columnIndex="3" GridPane.rowIndex="5">
+                    <font>
+                        <Font name="System Bold" size="31.0" />
+                    </font>
+               <effect>
+                  <InnerShadow />
+               </effect>
+                </TextField>
+                <TextField fx:id="tf54" alignment="CENTER" onMouseClicked="#tf54Action" prefHeight="72.0" prefWidth="72.0" GridPane.columnIndex="4" GridPane.rowIndex="5">
+                    <font>
+                        <Font name="System Bold" size="31.0" />
+                    </font>
+               <effect>
+                  <InnerShadow />
+               </effect>
+                </TextField>
+                <TextField fx:id="tf55" alignment="CENTER" onMouseClicked="#tf55Action" prefHeight="72.0" prefWidth="72.0" GridPane.columnIndex="5" GridPane.rowIndex="5">
+                    <font>
+                        <Font name="System Bold" size="31.0" />
+                    </font>
+               <effect>
+                  <InnerShadow />
+               </effect>
+                </TextField>
+                <TextField fx:id="tf56" alignment="CENTER" onMouseClicked="#tf56Action" prefHeight="72.0" prefWidth="72.0" GridPane.columnIndex="6" GridPane.rowIndex="5">
+                    <font>
+                        <Font name="System Bold" size="31.0" />
+                    </font>
+               <effect>
+                  <InnerShadow />
+               </effect>
+                </TextField>
+                <TextField fx:id="tf57" alignment="CENTER" onMouseClicked="#tf57Action" prefHeight="72.0" prefWidth="72.0" GridPane.columnIndex="7" GridPane.rowIndex="5">
+                    <font>
+                        <Font name="System Bold" size="31.0" />
+                    </font>
+               <effect>
+                  <InnerShadow />
+               </effect>
+                </TextField>
+                <TextField fx:id="tf58" alignment="CENTER" onMouseClicked="#tf58Action" prefHeight="72.0" prefWidth="72.0" GridPane.columnIndex="8" GridPane.rowIndex="5">
+                    <font>
+                        <Font name="System Bold" size="31.0" />
+                    </font>
+               <effect>
+                  <InnerShadow />
+               </effect>
+                </TextField>
+                <TextField fx:id="tf60" alignment="CENTER" onMouseClicked="#tf60Action" prefHeight="72.0" prefWidth="72.0" GridPane.rowIndex="6">
+                    <font>
+                        <Font name="System Bold" size="31.0" />
+                    </font>
+               <effect>
+                  <InnerShadow />
+               </effect>
+                </TextField>
+                <TextField fx:id="tf61" alignment="CENTER" onMouseClicked="#tf61Action" prefHeight="72.0" prefWidth="72.0" GridPane.columnIndex="1" GridPane.rowIndex="6">
+                    <font>
+                        <Font name="System Bold" size="31.0" />
+                    </font>
+               <effect>
+                  <InnerShadow />
+               </effect>
+                </TextField>
+                <TextField fx:id="tf62" alignment="CENTER" onMouseClicked="#tf62Action" prefHeight="72.0" prefWidth="72.0" GridPane.columnIndex="2" GridPane.rowIndex="6">
+                    <font>
+                        <Font name="System Bold" size="31.0" />
+                    </font>
+               <effect>
+                  <InnerShadow />
+               </effect>
+                </TextField>
+                <TextField fx:id="tf63" alignment="CENTER" onMouseClicked="#tf63Action" prefHeight="72.0" prefWidth="72.0" GridPane.columnIndex="3" GridPane.rowIndex="6">
+                    <font>
+                        <Font name="System Bold" size="31.0" />
+                    </font>
+               <effect>
+                  <InnerShadow />
+               </effect>
+                </TextField>
+                <TextField fx:id="tf64" alignment="CENTER" onMouseClicked="#tf64Action" prefHeight="72.0" prefWidth="72.0" GridPane.columnIndex="4" GridPane.rowIndex="6">
+                    <font>
+                        <Font name="System Bold" size="31.0" />
+                    </font>
+               <effect>
+                  <InnerShadow />
+               </effect>
+                </TextField>
+                <TextField fx:id="tf65" alignment="CENTER" onMouseClicked="#tf65Action" prefHeight="72.0" prefWidth="72.0" GridPane.columnIndex="5" GridPane.rowIndex="6">
+                    <font>
+                        <Font name="System Bold" size="31.0" />
+                    </font>
+               <effect>
+                  <InnerShadow />
+               </effect>
+                </TextField>
+                <TextField fx:id="tf66" alignment="CENTER" onMouseClicked="#tf66Action" prefHeight="72.0" prefWidth="72.0" GridPane.columnIndex="6" GridPane.rowIndex="6">
+                    <font>
+                        <Font name="System Bold" size="31.0" />
+                    </font>
+               <effect>
+                  <InnerShadow />
+               </effect>
+                </TextField>
+                <TextField fx:id="tf67" alignment="CENTER" onMouseClicked="#tf67Action" prefHeight="72.0" prefWidth="72.0" GridPane.columnIndex="7" GridPane.rowIndex="6">
+                    <font>
+                        <Font name="System Bold" size="31.0" />
+                    </font>
+               <effect>
+                  <InnerShadow />
+               </effect>
+                </TextField>
+                <TextField fx:id="tf68" alignment="CENTER" onMouseClicked="#tf68Action" prefHeight="72.0" prefWidth="72.0" GridPane.columnIndex="8" GridPane.rowIndex="6">
+                    <font>
+                        <Font name="System Bold" size="31.0" />
+                    </font>
+               <effect>
+                  <InnerShadow />
+               </effect>
+                </TextField>
+                <TextField fx:id="tf70" alignment="CENTER" onMouseClicked="#tf70Action" prefHeight="72.0" prefWidth="72.0" GridPane.rowIndex="7">
+                    <font>
+                        <Font name="System Bold" size="31.0" />
+                    </font>
+               <effect>
+                  <InnerShadow />
+               </effect>
+                </TextField>
+                <TextField fx:id="tf71" alignment="CENTER" onMouseClicked="#tf71Action" prefHeight="72.0" prefWidth="72.0" GridPane.columnIndex="1" GridPane.rowIndex="7">
+                    <font>
+                        <Font name="System Bold" size="31.0" />
+                    </font>
+               <effect>
+                  <InnerShadow />
+               </effect>
+                </TextField>
+                <TextField fx:id="tf72" alignment="CENTER" onMouseClicked="#tf72Action" prefHeight="72.0" prefWidth="72.0" GridPane.columnIndex="2" GridPane.rowIndex="7">
+                    <font>
+                        <Font name="System Bold" size="31.0" />
+                    </font>
+               <effect>
+                  <InnerShadow />
+               </effect>
+                </TextField>
+                <TextField fx:id="tf73" alignment="CENTER" onMouseClicked="#tf73Action" prefHeight="72.0" prefWidth="72.0" GridPane.columnIndex="3" GridPane.rowIndex="7">
+                    <font>
+                        <Font name="System Bold" size="31.0" />
+                    </font>
+               <effect>
+                  <InnerShadow />
+               </effect>
+                </TextField>
+                <TextField fx:id="tf74" alignment="CENTER" onMouseClicked="#tf74Action" prefHeight="72.0" prefWidth="72.0" GridPane.columnIndex="4" GridPane.rowIndex="7">
+                    <font>
+                        <Font name="System Bold" size="31.0" />
+                    </font>
+               <effect>
+                  <InnerShadow />
+               </effect>
+                </TextField>
+                <TextField fx:id="tf75" alignment="CENTER" onMouseClicked="#tf75Action" prefHeight="72.0" prefWidth="72.0" GridPane.columnIndex="5" GridPane.rowIndex="7">
+                    <font>
+                        <Font name="System Bold" size="31.0" />
+                    </font>
+               <effect>
+                  <InnerShadow />
+               </effect>
+                </TextField>
+                <TextField fx:id="tf76" alignment="CENTER" onMouseClicked="#tf76Action" prefHeight="72.0" prefWidth="72.0" GridPane.columnIndex="6" GridPane.rowIndex="7">
+                    <font>
+                        <Font name="System Bold" size="31.0" />
+                    </font>
+               <effect>
+                  <InnerShadow />
+               </effect>
+                </TextField>
+                <TextField fx:id="tf77" alignment="CENTER" onMouseClicked="#tf77Action" prefHeight="72.0" prefWidth="72.0" GridPane.columnIndex="7" GridPane.rowIndex="7">
+                    <font>
+                        <Font name="System Bold" size="31.0" />
+                    </font>
+               <effect>
+                  <InnerShadow />
+               </effect>
+                </TextField>
+                <TextField fx:id="tf78" alignment="CENTER" onMouseClicked="#tf78Action" prefHeight="72.0" prefWidth="72.0" GridPane.columnIndex="8" GridPane.rowIndex="7">
+                    <font>
+                        <Font name="System Bold" size="31.0" />
+                    </font>
+               <effect>
+                  <InnerShadow />
+               </effect>
+                </TextField>
+                <TextField fx:id="tf80" alignment="CENTER" onMouseClicked="#tf80Action" prefHeight="72.0" prefWidth="72.0" GridPane.rowIndex="8">
+                    <font>
+                        <Font name="System Bold" size="31.0" />
+                    </font>
+               <effect>
+                  <InnerShadow />
+               </effect>
+                </TextField>
+                <TextField fx:id="tf81" alignment="CENTER" onMouseClicked="#tf81Action" prefHeight="72.0" prefWidth="72.0" GridPane.columnIndex="1" GridPane.rowIndex="8">
+                    <font>
+                        <Font name="System Bold" size="31.0" />
+                    </font>
+               <effect>
+                  <InnerShadow />
+               </effect>
+                </TextField>
+                <TextField fx:id="tf82" alignment="CENTER" onMouseClicked="#tf82Action" prefHeight="72.0" prefWidth="72.0" GridPane.columnIndex="2" GridPane.rowIndex="8">
+                    <font>
+                        <Font name="System Bold" size="31.0" />
+                    </font>
+               <effect>
+                  <InnerShadow />
+               </effect>
+                </TextField>
+                <TextField fx:id="tf83" alignment="CENTER" onMouseClicked="#tf83Action" prefHeight="72.0" prefWidth="72.0" GridPane.columnIndex="3" GridPane.rowIndex="8">
+                    <font>
+                        <Font name="System Bold" size="31.0" />
+                    </font>
+               <effect>
+                  <InnerShadow />
+               </effect>
+                </TextField>
+                <TextField fx:id="tf84" alignment="CENTER" onMouseClicked="#tf84Action" prefHeight="72.0" prefWidth="72.0" GridPane.columnIndex="4" GridPane.rowIndex="8">
+                    <font>
+                        <Font name="System Bold" size="31.0" />
+                    </font>
+               <effect>
+                  <InnerShadow />
+               </effect>
+                </TextField>
+                <TextField fx:id="tf85" alignment="CENTER" onMouseClicked="#tf85Action" prefHeight="72.0" prefWidth="72.0" GridPane.columnIndex="5" GridPane.rowIndex="8">
+                    <font>
+                        <Font name="System Bold" size="31.0" />
+                    </font>
+               <effect>
+                  <InnerShadow />
+               </effect>
+                </TextField>
+                <TextField fx:id="tf86" alignment="CENTER" onMouseClicked="#tf86Action" prefHeight="72.0" prefWidth="72.0" GridPane.columnIndex="6" GridPane.rowIndex="8">
+                    <font>
+                        <Font name="System Bold" size="31.0" />
+                    </font>
+               <effect>
+                  <InnerShadow />
+               </effect>
+                </TextField>
+                <TextField fx:id="tf87" alignment="CENTER" onMouseClicked="#tf87Action" prefHeight="72.0" prefWidth="72.0" GridPane.columnIndex="7" GridPane.rowIndex="8">
+                    <font>
+                        <Font name="System Bold" size="31.0" />
+                    </font>
+               <effect>
+                  <InnerShadow />
+               </effect>
+                </TextField>
+                <TextField fx:id="tf88" alignment="CENTER" onMouseClicked="#tf88Action" prefHeight="72.0" prefWidth="72.0" GridPane.columnIndex="8" GridPane.rowIndex="8">
+                    <font>
+                        <Font name="System Bold" size="31.0" />
+                    </font>
+               <effect>
+                  <InnerShadow />
+               </effect>
+                </TextField>
+            </children>
+        </GridPane>
+        <Label fx:id="lblname" contentDisplay="RIGHT" layoutX="958.0" layoutY="78.0" prefHeight="58.0" prefWidth="408.0" textFill="#57075e">
+            <font>
+                <Font size="40.0" />
+            </font>
+        </Label>
+        <Button fx:id="btnCheckResult" alignment="CENTER" contentDisplay="TEXT_ONLY" layoutX="1018.0" layoutY="477.0" mnemonicParsing="false" onAction="#btnCheckResultAction" prefHeight="82.0" prefWidth="87.0" text="Submit" textAlignment="CENTER" textFill="#dd330d">
+            <font>
+                <Font name="System Bold Italic" size="18.0" />
+            </font>
+         <effect>
+            <InnerShadow height="35.83" radius="16.6725" width="32.86" />
+         </effect>
+        </Button>
+      <Label fx:id="modeMedium" alignment="CENTER" layoutX="959.0" layoutY="156.0" prefHeight="56.0" prefWidth="299.0" text="Mode : Medium" textFill="#6e5703" wrapText="true">
+         <font>
+            <Font name="System Bold" size="39.0" />
+         </font>
+      </Label>
+      <Label fx:id="time" alignment="CENTER" contentDisplay="CENTER" ellipsisString="" layoutX="940.0" layoutY="222.0" prefHeight="65.0" prefWidth="338.0" textFill="#800326">
+         <font>
+            <Font size="47.0" />
+         </font>
+      </Label>
+    </children>
+    <effect>
+        <InnerShadow color="#163043" />
+    </effect>
+</AnchorPane>

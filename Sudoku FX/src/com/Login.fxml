@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.paint.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="700.0" prefWidth="1366.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.LoginController">
+   <children>
+      <ImageView fx:id="ivRubel" fitHeight="700.0" fitWidth="1366.0" layoutY="0.0" pickOnBounds="true">
+         <image>
+            <Image url="@Sudoku.jpg" />
+         </image></ImageView>
+      <TextField fx:id="txtUsername" alignment="CENTER" layoutX="471.0" layoutY="395.0" prefHeight="74.0" prefWidth="470.0">
+         <font>
+            <Font name="System Bold" size="34.0" />
+         </font>
+         <effect>
+            <InnerShadow />
+         </effect></TextField>
+      <Button fx:id="btnEnter" alignment="CENTER" contentDisplay="CENTER" layoutX="471.0" layoutY="545.0" mnemonicParsing="false" onAction="#btnEnterAction" prefHeight="42.0" prefWidth="78.0" text="Enter" textFill="#6207ed">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+         <effect>
+            <InnerShadow />
+         </effect></Button>
+      <Label fx:id="lblMessage" alignment="CENTER" contentDisplay="CENTER" layoutX="346.0" layoutY="305.0" prefHeight="62.0" prefWidth="696.0" text="fgbnm," textFill="#e80e0e" wrapText="true">
+         <font>
+            <Font name="System Bold" size="40.0" />
+         </font></Label>
+      <Button fx:id="btnQuit" alignment="CENTER" contentDisplay="CENTER" layoutX="863.0" layoutY="545.0" mnemonicParsing="false" onAction="#btnQuitAction" prefHeight="44.0" prefWidth="78.0" text="Quit" textFill="#eb0a0a">
+         <font>
+            <Font name="System Bold" size="21.0" />
+         </font>
+         <effect>
+            <InnerShadow />
+         </effect>
+      </Button>
+      <ImageView fitHeight="131.0" fitWidth="126.0" layoutX="951.0" layoutY="369.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@head1.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="147.0" fitWidth="133.0" layoutX="330.0" layoutY="357.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@head.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

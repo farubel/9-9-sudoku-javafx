@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="700.0" prefWidth="1366.0" style="-fx-background-color: Alice;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.RuleController">
+   <children>
+      <ImageView fitHeight="700.0" fitWidth="1366.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Rules.PNG" />
+         </image>
+      </ImageView>
+      <Button fx:id="btnQuit" alignment="CENTER" contentDisplay="CENTER" layoutX="909.0" layoutY="614.0" mnemonicParsing="false" onAction="#btnQuitAction" prefHeight="46.0" prefWidth="77.0" text="Quit" textFill="#fc0606">
+         <font>
+            <Font name="System Bold" size="22.0" />
+         </font>
+         <effect>
+            <InnerShadow height="35.83" radius="16.6725" width="32.86" />
+         </effect>
+      </Button>
+      <Button fx:id="btnPrevious" graphicTextGap="0.0" layoutX="364.0" layoutY="614.0" mnemonicParsing="false" onAction="#btnPreviousAction" prefHeight="48.0" prefWidth="96.0" text="&lt;Back" textFill="#8f076d" textOverrun="CLIP">
+         <font>
+            <Font name="Consolas Bold Italic" size="23.0" />
+         </font>
+         <effect>
+            <InnerShadow height="32.86" radius="16.6725" width="35.83" />
+         </effect>
+      </Button>
+   </children>
+</AnchorPane>

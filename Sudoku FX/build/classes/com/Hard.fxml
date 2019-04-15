@@ -1,0 +1,733 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="700.0" prefWidth="1366.0" style="-fx-background-color: NavajoWhite;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.HardController">
+   <children>
+      <GridPane focusTraversable="true" gridLinesVisible="true" layoutX="46.0" layoutY="26.0" prefHeight="648.0" prefWidth="648.0" style="-fx-background-color: White;">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="95.0" minWidth="10.0" prefWidth="44.0" />
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="155.0" minWidth="10.0" prefWidth="47.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="155.0" minWidth="10.0" prefWidth="47.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="155.0" minWidth="0.0" prefWidth="46.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="155.0" minWidth="0.0" prefWidth="45.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="155.0" minWidth="10.0" prefWidth="47.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="155.0" minWidth="10.0" prefWidth="45.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="155.0" minWidth="10.0" prefWidth="47.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="155.0" minWidth="10.0" prefWidth="45.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints maxHeight="72.0" minHeight="10.0" prefHeight="72.0" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="72.0" minHeight="10.0" prefHeight="72.0" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="72.0" minHeight="10.0" prefHeight="72.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="72.0" minHeight="10.0" prefHeight="72.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="72.0" minHeight="10.0" prefHeight="72.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="72.0" minHeight="10.0" prefHeight="40.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="72.0" minHeight="10.0" prefHeight="72.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="72.0" minHeight="10.0" prefHeight="72.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="72.0" minHeight="10.0" prefHeight="72.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <TextField fx:id="thard00" alignment="CENTER" onMouseClicked="#thard00Action" prefHeight="72.0" prefWidth="72.0">
+               <font>
+                  <Font name="System Bold" size="33.0" />
+               </font>
+               <effect>
+                  <InnerShadow />
+               </effect></TextField>
+            <TextField fx:id="thard01" alignment="CENTER" onMouseClicked="#thard01Action" prefHeight="72.0" prefWidth="72.0" GridPane.columnIndex="1">
+               <font>
+                  <Font name="System Bold" size="33.0" />
+               </font>
+               <effect>
+                  <InnerShadow />
+               </effect></TextField>
+            <TextField fx:id="thard02" alignment="CENTER" onMouseClicked="#thard02Action" prefHeight="72.0" prefWidth="72.0" GridPane.columnIndex="2">
+               <font>
+                  <Font name="System Bold" size="33.0" />
+               </font>
+               <effect>
+                  <InnerShadow />
+               </effect></TextField>
+            <TextField fx:id="thard03" alignment="CENTER" onMouseClicked="#thard03Action" prefHeight="72.0" prefWidth="72.0" GridPane.columnIndex="3">
+               <font>
+                  <Font name="System Bold" size="33.0" />
+               </font>
+               <effect>
+                  <InnerShadow />
+               </effect></TextField>
+            <TextField fx:id="thard04" alignment="CENTER" onMouseClicked="#thard04Action" prefHeight="72.0" prefWidth="72.0" GridPane.columnIndex="4">
+               <font>
+                  <Font name="System Bold" size="33.0" />
+               </font>
+               <effect>
+                  <InnerShadow />
+               </effect></TextField>
+            <TextField fx:id="thard05" alignment="CENTER" onMouseClicked="#thard05Action" prefHeight="72.0" prefWidth="72.0" GridPane.columnIndex="5">
+               <font>
+                  <Font name="System Bold" size="33.0" />
+               </font>
+               <effect>
+                  <InnerShadow />
+               </effect>
+            </TextField>
+            <TextField fx:id="thard06" alignment="CENTER" onMouseClicked="#thard06Action" prefHeight="72.0" prefWidth="72.0" GridPane.columnIndex="6">
+               <font>
+                  <Font name="System Bold" size="33.0" />
+               </font>
+               <effect>
+                  <InnerShadow />
+               </effect>
+            </TextField>
+            <TextField fx:id="thard07" alignment="CENTER" onMouseClicked="#thard07Action" prefHeight="72.0" prefWidth="72.0" GridPane.columnIndex="7">
+               <font>
+                  <Font name="System Bold" size="33.0" />
+               </font>
+               <effect>
+                  <InnerShadow />
+               </effect>
+            </TextField>
+            <TextField fx:id="thard08" alignment="CENTER" onMouseClicked="#thard08Action" prefHeight="72.0" prefWidth="72.0" GridPane.columnIndex="8">
+               <font>
+                  <Font name="System Bold" size="33.0" />
+               </font>
+               <effect>
+                  <InnerShadow />
+               </effect>
+            </TextField>
+            <TextField fx:id="thard10" alignment="CENTER" onMouseClicked="#thard10Action" prefHeight="72.0" prefWidth="72.0" GridPane.rowIndex="1">
+               <font>
+                  <Font name="System Bold" size="33.0" />
+               </font>
+               <effect>
+                  <InnerShadow />
+               </effect>
+            </TextField>
+            <TextField fx:id="thard11" alignment="CENTER" onMouseClicked="#thard11Action" prefHeight="72.0" prefWidth="72.0" GridPane.columnIndex="1" GridPane.rowIndex="1">
+               <font>
+                  <Font name="System Bold" size="33.0" />
+               </font>
+               <effect>
+                  <InnerShadow />
+               </effect>
+            </TextField>
+            <TextField fx:id="thard12" alignment="CENTER" onMouseClicked="#thard12Action" prefHeight="72.0" prefWidth="72.0" GridPane.columnIndex="2" GridPane.rowIndex="1">
+               <font>
+                  <Font name="System Bold" size="33.0" />
+               </font>
+               <effect>
+                  <InnerShadow />
+               </effect>
+            </TextField>
+            <TextField fx:id="thard13" alignment="CENTER" onMouseClicked="#thard13Action" prefHeight="72.0" prefWidth="72.0" GridPane.columnIndex="3" GridPane.rowIndex="1">
+               <font>
+                  <Font name="System Bold" size="33.0" />
+               </font>
+               <effect>
+                  <InnerShadow />
+               </effect>
+            </TextField>
+            <TextField fx:id="thard14" alignment="CENTER" onMouseClicked="#thard14Action" prefHeight="72.0" prefWidth="72.0" GridPane.columnIndex="4" GridPane.rowIndex="1">
+               <font>
+                  <Font name="System Bold" size="33.0" />
+               </font>
+               <effect>
+                  <InnerShadow />
+               </effect>
+            </TextField>
+            <TextField fx:id="thard15" alignment="CENTER" onMouseClicked="#thard15Action" prefHeight="72.0" prefWidth="72.0" GridPane.columnIndex="5" GridPane.rowIndex="1">
+               <font>
+                  <Font name="System Bold" size="33.0" />
+               </font>
+               <effect>
+                  <InnerShadow />
+               </effect>
+            </TextField>
+            <TextField fx:id="thard16" alignment="CENTER" onMouseClicked="#thard16Action" prefHeight="72.0" prefWidth="72.0" GridPane.columnIndex="6" GridPane.rowIndex="1">
+               <font>
+                  <Font name="System Bold" size="33.0" />
+               </font>
+               <effect>
+                  <InnerShadow />
+               </effect>
+            </TextField>
+            <TextField fx:id="thard17" alignment="CENTER" onMouseClicked="#thard17Action" prefHeight="72.0" prefWidth="72.0" GridPane.columnIndex="7" GridPane.rowIndex="1">
+               <font>
+                  <Font name="System Bold" size="33.0" />
+               </font>
+               <effect>
+                  <InnerShadow />
+               </effect>
+            </TextField>
+            <TextField fx:id="thard18" alignment="CENTER" onMouseClicked="#thard18Action" prefHeight="72.0" prefWidth="72.0" GridPane.columnIndex="8" GridPane.rowIndex="1">
+               <font>
+                  <Font name="System Bold" size="33.0" />
+               </font>
+               <effect>
+                  <InnerShadow />
+               </effect>
+            </TextField>
+            <TextField fx:id="thard20" alignment="CENTER" onMouseClicked="#thard20Action" prefHeight="72.0" prefWidth="72.0" GridPane.rowIndex="2">
+               <font>
+                  <Font name="System Bold" size="33.0" />
+               </font>
+               <effect>
+                  <InnerShadow />
+               </effect>
+            </TextField>
+            <TextField fx:id="thard21" alignment="CENTER" onMouseClicked="#thard21Action" prefHeight="72.0" prefWidth="72.0" GridPane.columnIndex="1" GridPane.rowIndex="2">
+               <font>
+                  <Font name="System Bold" size="33.0" />
+               </font>
+               <effect>
+                  <InnerShadow />
+               </effect>
+            </TextField>
+            <TextField fx:id="thard22" alignment="CENTER" onMouseClicked="#thard22Action" prefHeight="72.0" prefWidth="72.0" GridPane.columnIndex="2" GridPane.rowIndex="2">
+               <font>
+                  <Font name="System Bold" size="33.0" />
+               </font>
+               <effect>
+                  <InnerShadow />
+               </effect>
+            </TextField>
+            <TextField fx:id="thard23" alignment="CENTER" onMouseClicked="#thard23Action" prefHeight="72.0" prefWidth="72.0" GridPane.columnIndex="3" GridPane.rowIndex="2">
+               <font>
+                  <Font name="System Bold" size="33.0" />
+               </font>
+               <effect>
+                  <InnerShadow />
+               </effect>
+            </TextField>
+            <TextField fx:id="thard24" alignment="CENTER" onMouseClicked="#thard24Action" prefHeight="72.0" prefWidth="72.0" GridPane.columnIndex="4" GridPane.rowIndex="2">
+               <font>
+                  <Font name="System Bold" size="33.0" />
+               </font>
+               <effect>
+                  <InnerShadow />
+               </effect>
+            </TextField>
+            <TextField fx:id="thard25" alignment="CENTER" onMouseClicked="#thard25Action" prefHeight="72.0" prefWidth="72.0" GridPane.columnIndex="5" GridPane.rowIndex="2">
+               <font>
+                  <Font name="System Bold" size="33.0" />
+               </font>
+               <effect>
+                  <InnerShadow />
+               </effect>
+            </TextField>
+            <TextField fx:id="thard26" alignment="CENTER" onMouseClicked="#thard26Action" prefHeight="72.0" prefWidth="72.0" GridPane.columnIndex="6" GridPane.rowIndex="2">
+               <font>
+                  <Font name="System Bold" size="33.0" />
+               </font>
+               <effect>
+                  <InnerShadow />
+               </effect>
+            </TextField>
+            <TextField fx:id="thard27" alignment="CENTER" onMouseClicked="#thard27Action" prefHeight="72.0" prefWidth="72.0" GridPane.columnIndex="7" GridPane.rowIndex="2">
+               <font>
+                  <Font name="System Bold" size="33.0" />
+               </font>
+               <effect>
+                  <InnerShadow />
+               </effect>
+            </TextField>
+            <TextField fx:id="thard28" alignment="CENTER" onMouseClicked="#thard28Action" prefHeight="72.0" prefWidth="72.0" GridPane.columnIndex="8" GridPane.rowIndex="2">
+               <font>
+                  <Font name="System Bold" size="33.0" />
+               </font>
+               <effect>
+                  <InnerShadow />
+               </effect>
+            </TextField>
+            <TextField fx:id="thard30" alignment="CENTER" onMouseClicked="#thard30Action" prefHeight="72.0" prefWidth="72.0" GridPane.rowIndex="3">
+               <font>
+                  <Font name="System Bold" size="33.0" />
+               </font>
+               <effect>
+                  <InnerShadow />
+               </effect>
+            </TextField>
+            <TextField fx:id="thard31" alignment="CENTER" onMouseClicked="#thard31Action" prefHeight="72.0" prefWidth="72.0" GridPane.columnIndex="1" GridPane.rowIndex="3">
+               <font>
+                  <Font name="System Bold" size="33.0" />
+               </font>
+               <effect>
+                  <InnerShadow />
+               </effect>
+            </TextField>
+            <TextField fx:id="thard32" alignment="CENTER" onMouseClicked="#thard32Action" prefHeight="72.0" prefWidth="72.0" GridPane.columnIndex="2" GridPane.rowIndex="3">
+               <font>
+                  <Font name="System Bold" size="33.0" />
+               </font>
+               <effect>
+                  <InnerShadow />
+               </effect>
+            </TextField>
+            <TextField fx:id="thard33" alignment="CENTER" onMouseClicked="#thard33Action" prefHeight="72.0" prefWidth="72.0" GridPane.columnIndex="3" GridPane.rowIndex="3">
+               <font>
+                  <Font name="System Bold" size="33.0" />
+               </font>
+               <effect>
+                  <InnerShadow />
+               </effect>
+            </TextField>
+            <TextField fx:id="thard34" alignment="CENTER" onMouseClicked="#thard34Action" prefHeight="72.0" prefWidth="72.0" GridPane.columnIndex="4" GridPane.rowIndex="3">
+               <font>
+                  <Font name="System Bold" size="33.0" />
+               </font>
+               <effect>
+                  <InnerShadow />
+               </effect>
+            </TextField>
+            <TextField fx:id="thard35" alignment="CENTER" onMouseClicked="#thard35Action" prefHeight="72.0" prefWidth="72.0" GridPane.columnIndex="5" GridPane.rowIndex="3">
+               <font>
+                  <Font name="System Bold" size="33.0" />
+               </font>
+               <effect>
+                  <InnerShadow />
+               </effect>
+            </TextField>
+            <TextField fx:id="thard36" alignment="CENTER" onMouseClicked="#thard36Action" prefHeight="72.0" prefWidth="72.0" GridPane.columnIndex="6" GridPane.rowIndex="3">
+               <font>
+                  <Font name="System Bold" size="33.0" />
+               </font>
+               <effect>
+                  <InnerShadow />
+               </effect>
+            </TextField>
+            <TextField fx:id="thard37" alignment="CENTER" onMouseClicked="#thard37Action" prefHeight="72.0" prefWidth="72.0" GridPane.columnIndex="7" GridPane.rowIndex="3">
+               <font>
+                  <Font name="System Bold" size="33.0" />
+               </font>
+               <effect>
+                  <InnerShadow />
+               </effect>
+            </TextField>
+            <TextField fx:id="thard38" alignment="CENTER" onMouseClicked="#thard38Action" prefHeight="72.0" prefWidth="72.0" GridPane.columnIndex="8" GridPane.rowIndex="3">
+               <font>
+                  <Font name="System Bold" size="33.0" />
+               </font>
+               <effect>
+                  <InnerShadow />
+               </effect>
+            </TextField>
+            <TextField fx:id="thard40" alignment="CENTER" onMouseClicked="#thard40Action" prefHeight="72.0" prefWidth="72.0" GridPane.rowIndex="4">
+               <font>
+                  <Font name="System Bold" size="33.0" />
+               </font>
+               <effect>
+                  <InnerShadow />
+               </effect>
+            </TextField>
+            <TextField fx:id="thard41" alignment="CENTER" onMouseClicked="#thard41Action" prefHeight="72.0" prefWidth="72.0" GridPane.columnIndex="1" GridPane.rowIndex="4">
+               <font>
+                  <Font name="System Bold" size="33.0" />
+               </font>
+               <effect>
+                  <InnerShadow />
+               </effect>
+            </TextField>
+            <TextField fx:id="thard42" alignment="CENTER" onMouseClicked="#thard42Action" prefHeight="72.0" prefWidth="72.0" GridPane.columnIndex="2" GridPane.rowIndex="4">
+               <font>
+                  <Font name="System Bold" size="33.0" />
+               </font>
+               <effect>
+                  <InnerShadow />
+               </effect>
+            </TextField>
+            <TextField fx:id="thard43" alignment="CENTER" onMouseClicked="#thard43Action" prefHeight="72.0" prefWidth="72.0" GridPane.columnIndex="3" GridPane.rowIndex="4">
+               <font>
+                  <Font name="System Bold" size="33.0" />
+               </font>
+               <effect>
+                  <InnerShadow />
+               </effect>
+            </TextField>
+            <TextField fx:id="thard44" alignment="CENTER" onMouseClicked="#thard44Action" prefHeight="72.0" prefWidth="72.0" GridPane.columnIndex="4" GridPane.rowIndex="4">
+               <font>
+                  <Font name="System Bold" size="33.0" />
+               </font>
+               <effect>
+                  <InnerShadow />
+               </effect>
+            </TextField>
+            <TextField fx:id="thard45" alignment="CENTER" onMouseClicked="#thard45Action" prefHeight="72.0" prefWidth="72.0" GridPane.columnIndex="5" GridPane.rowIndex="4">
+               <font>
+                  <Font name="System Bold" size="33.0" />
+               </font>
+               <effect>
+                  <InnerShadow />
+               </effect>
+            </TextField>
+            <TextField fx:id="thard46" alignment="CENTER" onMouseClicked="#thard46Action" prefHeight="72.0" prefWidth="72.0" GridPane.columnIndex="6" GridPane.rowIndex="4">
+               <font>
+                  <Font name="System Bold" size="33.0" />
+               </font>
+               <effect>
+                  <InnerShadow />
+               </effect>
+            </TextField>
+            <TextField fx:id="thard47" alignment="CENTER" onMouseClicked="#thard47Action" prefHeight="72.0" prefWidth="72.0" GridPane.columnIndex="7" GridPane.rowIndex="4">
+               <font>
+                  <Font name="System Bold" size="33.0" />
+               </font>
+               <effect>
+                  <InnerShadow />
+               </effect>
+            </TextField>
+            <TextField fx:id="thard48" alignment="CENTER" onMouseClicked="#thard48Action" prefHeight="72.0" prefWidth="72.0" GridPane.columnIndex="8" GridPane.rowIndex="4">
+               <font>
+                  <Font name="System Bold" size="33.0" />
+               </font>
+               <effect>
+                  <InnerShadow />
+               </effect>
+            </TextField>
+            <TextField fx:id="thard50" alignment="CENTER" onMouseClicked="#thard50Action" prefHeight="72.0" prefWidth="72.0" GridPane.rowIndex="5">
+               <font>
+                  <Font name="System Bold" size="33.0" />
+               </font>
+               <effect>
+                  <InnerShadow />
+               </effect>
+            </TextField>
+            <TextField fx:id="thard51" alignment="CENTER" onMouseClicked="#thard51Action" prefHeight="72.0" prefWidth="72.0" GridPane.columnIndex="1" GridPane.rowIndex="5">
+               <font>
+                  <Font name="System Bold" size="33.0" />
+               </font>
+               <effect>
+                  <InnerShadow />
+               </effect>
+            </TextField>
+            <TextField fx:id="thard53" alignment="CENTER" onMouseClicked="#thard53Action" prefHeight="72.0" prefWidth="72.0" GridPane.columnIndex="3" GridPane.rowIndex="5">
+               <font>
+                  <Font name="System Bold" size="33.0" />
+               </font>
+               <effect>
+                  <InnerShadow />
+               </effect>
+            </TextField>
+            <TextField fx:id="thard52" alignment="CENTER" onMouseClicked="#thard52Action" prefHeight="72.0" prefWidth="72.0" GridPane.columnIndex="2" GridPane.rowIndex="5">
+               <font>
+                  <Font name="System Bold" size="33.0" />
+               </font>
+               <effect>
+                  <InnerShadow />
+               </effect>
+            </TextField>
+            <TextField fx:id="thard54" alignment="CENTER" onMouseClicked="#thard54Action" prefHeight="72.0" prefWidth="72.0" GridPane.columnIndex="4" GridPane.rowIndex="5">
+               <font>
+                  <Font name="System Bold" size="33.0" />
+               </font>
+               <effect>
+                  <InnerShadow />
+               </effect>
+            </TextField>
+            <TextField fx:id="thard55" alignment="CENTER" onMouseClicked="#thard55Action" prefHeight="72.0" prefWidth="72.0" GridPane.columnIndex="5" GridPane.rowIndex="5">
+               <font>
+                  <Font name="System Bold" size="33.0" />
+               </font>
+               <effect>
+                  <InnerShadow />
+               </effect>
+            </TextField>
+            <TextField fx:id="thard56" alignment="CENTER" onMouseClicked="#thard56Action" prefHeight="72.0" prefWidth="72.0" GridPane.columnIndex="6" GridPane.rowIndex="5">
+               <font>
+                  <Font name="System Bold" size="33.0" />
+               </font>
+               <effect>
+                  <InnerShadow />
+               </effect>
+            </TextField>
+            <TextField fx:id="thard57" alignment="CENTER" onMouseClicked="#thard57Action" prefHeight="72.0" prefWidth="72.0" GridPane.columnIndex="7" GridPane.rowIndex="5">
+               <font>
+                  <Font name="System Bold" size="33.0" />
+               </font>
+               <effect>
+                  <InnerShadow />
+               </effect>
+            </TextField>
+            <TextField fx:id="thard58" alignment="CENTER" onMouseClicked="#thard58Action" prefHeight="72.0" prefWidth="72.0" GridPane.columnIndex="8" GridPane.rowIndex="5">
+               <font>
+                  <Font name="System Bold" size="33.0" />
+               </font>
+               <effect>
+                  <InnerShadow />
+               </effect>
+            </TextField>
+            <TextField fx:id="thard60" alignment="CENTER" onMouseClicked="#thard60Action" prefHeight="72.0" prefWidth="72.0" GridPane.rowIndex="6">
+               <font>
+                  <Font name="System Bold" size="33.0" />
+               </font>
+               <effect>
+                  <InnerShadow />
+               </effect>
+            </TextField>
+            <TextField fx:id="thard61" alignment="CENTER" onMouseClicked="#thard61Action" prefHeight="72.0" prefWidth="72.0" GridPane.columnIndex="1" GridPane.rowIndex="6">
+               <font>
+                  <Font name="System Bold" size="33.0" />
+               </font>
+               <effect>
+                  <InnerShadow />
+               </effect>
+            </TextField>
+            <TextField fx:id="thard62" alignment="CENTER" onMouseClicked="#thard62Action" prefHeight="72.0" prefWidth="72.0" GridPane.columnIndex="2" GridPane.rowIndex="6">
+               <font>
+                  <Font name="System Bold" size="33.0" />
+               </font>
+               <effect>
+                  <InnerShadow />
+               </effect>
+            </TextField>
+            <TextField fx:id="thard63" alignment="CENTER" onMouseClicked="#thard63Action" prefHeight="72.0" prefWidth="72.0" GridPane.columnIndex="3" GridPane.rowIndex="6">
+               <font>
+                  <Font name="System Bold" size="33.0" />
+               </font>
+               <effect>
+                  <InnerShadow />
+               </effect>
+            </TextField>
+            <TextField fx:id="thard64" alignment="CENTER" onMouseClicked="#thard64Action" prefHeight="72.0" prefWidth="72.0" GridPane.columnIndex="4" GridPane.rowIndex="6">
+               <font>
+                  <Font name="System Bold" size="33.0" />
+               </font>
+               <effect>
+                  <InnerShadow />
+               </effect>
+            </TextField>
+            <TextField fx:id="thard65" alignment="CENTER" onMouseClicked="#thard65Action" prefHeight="72.0" prefWidth="72.0" GridPane.columnIndex="5" GridPane.rowIndex="6">
+               <font>
+                  <Font name="System Bold" size="33.0" />
+               </font>
+               <effect>
+                  <InnerShadow />
+               </effect>
+            </TextField>
+            <TextField fx:id="thard66" alignment="CENTER" onMouseClicked="#thard66Action" prefHeight="72.0" prefWidth="72.0" GridPane.columnIndex="6" GridPane.rowIndex="6">
+               <font>
+                  <Font name="System Bold" size="33.0" />
+               </font>
+               <effect>
+                  <InnerShadow />
+               </effect>
+            </TextField>
+            <TextField fx:id="thard67" alignment="CENTER" onMouseClicked="#thard67Action" prefHeight="72.0" prefWidth="72.0" GridPane.columnIndex="7" GridPane.rowIndex="6">
+               <font>
+                  <Font name="System Bold" size="33.0" />
+               </font>
+               <effect>
+                  <InnerShadow />
+               </effect>
+            </TextField>
+            <TextField fx:id="thard68" alignment="CENTER" onMouseClicked="#thard68Action" prefHeight="72.0" prefWidth="72.0" GridPane.columnIndex="8" GridPane.rowIndex="6">
+               <font>
+                  <Font name="System Bold" size="33.0" />
+               </font>
+               <effect>
+                  <InnerShadow />
+               </effect>
+            </TextField>
+            <TextField fx:id="thard70" alignment="CENTER" onMouseClicked="#thard70Action" prefHeight="72.0" prefWidth="72.0" GridPane.rowIndex="7">
+               <font>
+                  <Font name="System Bold" size="33.0" />
+               </font>
+               <effect>
+                  <InnerShadow />
+               </effect>
+            </TextField>
+            <TextField fx:id="thard71" alignment="CENTER" onMouseClicked="#thard71Action" prefHeight="72.0" prefWidth="72.0" GridPane.columnIndex="1" GridPane.rowIndex="7">
+               <font>
+                  <Font name="System Bold" size="33.0" />
+               </font>
+               <effect>
+                  <InnerShadow />
+               </effect>
+            </TextField>
+            <TextField fx:id="thard72" alignment="CENTER" onMouseClicked="#thard72Action" prefHeight="72.0" prefWidth="72.0" GridPane.columnIndex="2" GridPane.rowIndex="7">
+               <font>
+                  <Font name="System Bold" size="33.0" />
+               </font>
+               <effect>
+                  <InnerShadow />
+               </effect>
+            </TextField>
+            <TextField fx:id="thard73" alignment="CENTER" onMouseClicked="#thard73Action" prefHeight="72.0" prefWidth="72.0" GridPane.columnIndex="3" GridPane.rowIndex="7">
+               <font>
+                  <Font name="System Bold" size="33.0" />
+               </font>
+               <effect>
+                  <InnerShadow />
+               </effect>
+            </TextField>
+            <TextField fx:id="thard74" alignment="CENTER" onMouseClicked="#thard74Action" prefHeight="72.0" prefWidth="72.0" GridPane.columnIndex="4" GridPane.rowIndex="7">
+               <font>
+                  <Font name="System Bold" size="33.0" />
+               </font>
+               <effect>
+                  <InnerShadow />
+               </effect>
+            </TextField>
+            <TextField fx:id="thard75" alignment="CENTER" onMouseClicked="#thard75Action" prefHeight="72.0" prefWidth="72.0" GridPane.columnIndex="5" GridPane.rowIndex="7">
+               <font>
+                  <Font name="System Bold" size="33.0" />
+               </font>
+               <effect>
+                  <InnerShadow />
+               </effect>
+            </TextField>
+            <TextField fx:id="thard76" alignment="CENTER" onMouseClicked="#thard76Action" prefHeight="72.0" prefWidth="72.0" GridPane.columnIndex="6" GridPane.rowIndex="7">
+               <font>
+                  <Font name="System Bold" size="33.0" />
+               </font>
+               <effect>
+                  <InnerShadow />
+               </effect>
+            </TextField>
+            <TextField fx:id="thard77" alignment="CENTER" onMouseClicked="#thard77Action" prefHeight="72.0" prefWidth="72.0" GridPane.columnIndex="7" GridPane.rowIndex="7">
+               <font>
+                  <Font name="System Bold" size="33.0" />
+               </font>
+               <effect>
+                  <InnerShadow />
+               </effect>
+            </TextField>
+            <TextField fx:id="thard78" alignment="CENTER" onMouseClicked="#thard78Action" prefHeight="72.0" prefWidth="72.0" GridPane.columnIndex="8" GridPane.rowIndex="7">
+               <font>
+                  <Font name="System Bold" size="33.0" />
+               </font>
+               <effect>
+                  <InnerShadow />
+               </effect>
+            </TextField>
+            <TextField fx:id="thard80" alignment="CENTER" onMouseClicked="#thard80Action" prefHeight="72.0" prefWidth="72.0" GridPane.rowIndex="8">
+               <font>
+                  <Font name="System Bold" size="33.0" />
+               </font>
+               <effect>
+                  <InnerShadow />
+               </effect>
+            </TextField>
+            <TextField fx:id="thard81" alignment="CENTER" onMouseClicked="#thard81Action" prefHeight="72.0" prefWidth="72.0" GridPane.columnIndex="1" GridPane.rowIndex="8">
+               <font>
+                  <Font name="System Bold" size="33.0" />
+               </font>
+               <effect>
+                  <InnerShadow />
+               </effect>
+            </TextField>
+            <TextField fx:id="thard82" alignment="CENTER" onMouseClicked="#thard82Action" prefHeight="72.0" prefWidth="72.0" GridPane.columnIndex="2" GridPane.rowIndex="8">
+               <font>
+                  <Font name="System Bold" size="33.0" />
+               </font>
+               <effect>
+                  <InnerShadow />
+               </effect>
+            </TextField>
+            <TextField fx:id="thard83" alignment="CENTER" onMouseClicked="#thard83Action" prefHeight="72.0" prefWidth="72.0" GridPane.columnIndex="3" GridPane.rowIndex="8">
+               <font>
+                  <Font name="System Bold" size="33.0" />
+               </font>
+               <effect>
+                  <InnerShadow />
+               </effect>
+            </TextField>
+            <TextField fx:id="thard84" alignment="CENTER" onMouseClicked="#thard84Action" prefHeight="72.0" prefWidth="72.0" GridPane.columnIndex="4" GridPane.rowIndex="8">
+               <font>
+                  <Font name="System Bold" size="33.0" />
+               </font>
+               <effect>
+                  <InnerShadow />
+               </effect>
+            </TextField>
+            <TextField fx:id="thard85" alignment="CENTER" onMouseClicked="#thard85Action" prefHeight="72.0" prefWidth="72.0" GridPane.columnIndex="5" GridPane.rowIndex="8">
+               <font>
+                  <Font name="System Bold" size="33.0" />
+               </font>
+               <effect>
+                  <InnerShadow />
+               </effect>
+            </TextField>
+            <TextField fx:id="thard86" alignment="CENTER" onMouseClicked="#thard86Action" prefHeight="72.0" prefWidth="72.0" GridPane.columnIndex="6" GridPane.rowIndex="8">
+               <font>
+                  <Font name="System Bold" size="33.0" />
+               </font>
+               <effect>
+                  <InnerShadow />
+               </effect>
+            </TextField>
+            <TextField fx:id="thard87" alignment="CENTER" onMouseClicked="#thard87Action" prefHeight="72.0" prefWidth="72.0" GridPane.columnIndex="7" GridPane.rowIndex="8">
+               <font>
+                  <Font name="System Bold" size="33.0" />
+               </font>
+               <effect>
+                  <InnerShadow />
+               </effect>
+            </TextField>
+            <TextField fx:id="thard88" alignment="CENTER" onMouseClicked="#thard88Action" prefHeight="72.0" prefWidth="72.0" GridPane.columnIndex="8" GridPane.rowIndex="8">
+               <font>
+                  <Font name="System Bold" size="33.0" />
+               </font>
+               <effect>
+                  <InnerShadow />
+               </effect>
+            </TextField>
+         </children>
+      </GridPane>
+      <Label fx:id="lblhard" contentDisplay="CENTER" ellipsisString="" layoutX="979.0" layoutY="75.0" prefHeight="54.0" prefWidth="383.0" text="Name :" textFill="#0877f5">
+         <font>
+            <Font size="35.0" />
+         </font>
+      </Label>
+      <Button fx:id="btnPreviousHard" layoutX="994.0" layoutY="566.0" mnemonicParsing="false" onAction="#btnPreviousHardAction" prefHeight="54.0" prefWidth="85.0" text="&lt;Back" textFill="#0898ae">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+         <effect>
+            <InnerShadow height="29.9" radius="13.7075" width="26.93" />
+         </effect>
+      </Button>
+      <Button fx:id="btnQuit" layoutX="1106.0" layoutY="564.0" mnemonicParsing="false" onAction="#btnQuitAction" prefHeight="39.0" prefWidth="85.0" text="Quit" textFill="#e40a0a">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font>
+         <effect>
+            <InnerShadow height="26.93" radius="14.4475" width="32.86" />
+         </effect>
+      </Button>
+      <Button fx:id="btnSolveHard" alignment="CENTER" contentDisplay="CENTER" layoutX="1106.0" layoutY="458.0" mnemonicParsing="false" onAction="#btnSolveHardAction" prefHeight="78.0" prefWidth="85.0" text=" View Solve" textAlignment="CENTER" textFill="#a907f5" wrapText="true">
+         <font>
+            <Font name="System Bold" size="21.0" />
+         </font>
+         <effect>
+            <InnerShadow height="32.86" radius="14.4475" width="26.93" />
+         </effect>
+      </Button>
+      <Button fx:id="btnCheckResultHard" layoutX="993.0" layoutY="460.0" mnemonicParsing="false" onAction="#btnCheckResultHardAction" prefHeight="78.0" prefWidth="85.0" text="Submit" textFill="#bf09aa">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+         <effect>
+            <InnerShadow />
+         </effect>
+      </Button>
+      <Label fx:id="mode" alignment="CENTER" contentDisplay="CENTER" layoutX="980.0" layoutY="157.0" prefHeight="54.0" prefWidth="204.0" text="Mode :Hard" textFill="#678601">
+         <font>
+            <Font name="System Bold" size="36.0" />
+         </font>
+      </Label>
+      <Label fx:id="time" alignment="CENTER" contentDisplay="CENTER" layoutX="970.0" layoutY="249.0" prefHeight="54.0" prefWidth="248.0" textFill="#e80a7c">
+         <font>
+            <Font size="37.0" />
+         </font></Label>
+   </children>
+   <effect>
+      <InnerShadow />
+   </effect>
+</AnchorPane>

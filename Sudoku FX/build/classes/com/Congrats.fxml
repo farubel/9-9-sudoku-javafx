@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="700.0" prefWidth="1366.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.CongratsController">
+   <children>
+      <ImageView fitHeight="700.0" fitWidth="1366.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Congrats.jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="btnPrevious" alignment="CENTER" contentDisplay="CENTER" layoutX="1101.0" layoutY="514.0" mnemonicParsing="false" onAction="#btnPreviousAction" prefHeight="66.0" prefWidth="90.0" text="Back to Menu" textAlignment="CENTER" textFill="#e107c0" wrapText="true">
+         <effect>
+            <InnerShadow height="26.93" radius="12.965" width="26.93" />
+         </effect>
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnPlayAgain" ellipsisString="" layoutX="1225.0" layoutY="514.0" mnemonicParsing="false" onAction="#btnPlayAgainAction" prefHeight="66.0" prefWidth="74.0" text=" Play Again" textAlignment="CENTER" textFill="#067cae" wrapText="true">
+         <effect>
+            <InnerShadow />
+         </effect>
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnQuit" layoutX="1225.0" layoutY="609.0" mnemonicParsing="false" onAction="#btnQuitAction" prefHeight="39.0" prefWidth="74.0" text="Quit" textFill="#f50808">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+         <effect>
+            <InnerShadow />
+         </effect>
+      </Button>
+      <Button fx:id="Board" layoutX="1101.0" layoutY="609.0" mnemonicParsing="false" onAction="#btnBoardAction" prefHeight="39.0" prefWidth="110.0" text="ScoreBoard">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+         <effect>
+            <InnerShadow />
+         </effect>
+      </Button>
+   </children>
+</AnchorPane>

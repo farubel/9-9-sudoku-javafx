@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="700.0" prefWidth="1366.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.MenuController">
+   <children>
+      <ImageView fitHeight="700.0" fitWidth="1366.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Sudoku.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="btnRule" contentDisplay="CENTER" layoutX="382.0" layoutY="572.0" mnemonicParsing="false" onAction="#btnRuleAction" prefHeight="48.0" prefWidth="96.0" text="RULES" textFill="#0c7886">
+         <font>
+            <Font name="System Bold" size="22.0" />
+         </font>
+         <effect>
+            <InnerShadow height="26.93" radius="13.7075" width="29.9" />
+         </effect>
+      </Button>
+      <ImageView fitHeight="126.0" fitWidth="120.0" layoutX="515.0" layoutY="335.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Play.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="btnEasy" alignment="CENTER" layoutX="634.0" layoutY="320.0" mnemonicParsing="false" onAction="#btnEasyAction" prefHeight="45.0" prefWidth="120.0" text="EASY" textFill="#0fae00" wrapText="true">
+         <font>
+            <Font name="System Bold" size="21.0" />
+         </font>
+         <effect>
+            <InnerShadow radius="10.7425" width="23.97" />
+         </effect>
+      </Button>
+      <Button fx:id="btnMedium" contentDisplay="CENTER" layoutX="634.0" layoutY="375.0" mnemonicParsing="false" onAction="#btnMediumAction" prefHeight="44.0" prefWidth="120.0" text="MEDIUM" textFill="#2b74cf">
+         <font>
+            <Font name="System Bold" size="21.0" />
+         </font>
+         <effect>
+            <InnerShadow color="#1b0101" height="29.9" radius="12.225" />
+         </effect>
+      </Button>
+      <Button fx:id="btnHard" contentDisplay="CENTER" layoutX="634.0" layoutY="427.0" mnemonicParsing="false" onAction="#btnHardAction" prefHeight="42.0" prefWidth="120.0" text="HARD" textFill="#fa05d9">
+         <font>
+            <Font name="System Bold" size="21.0" />
+         </font>
+         <effect>
+            <InnerShadow radius="12.225" width="29.9" />
+         </effect>
+      </Button>
+      <Button fx:id="btnQuit" contentDisplay="CENTER" layoutX="897.0" layoutY="572.0" mnemonicParsing="false" onAction="#btnQuitAction" prefHeight="48.0" prefWidth="78.0" text="Quit" textFill="#ff0e0e">
+         <effect>
+            <InnerShadow radius="10.7425" width="23.97" />
+         </effect>
+         <font>
+            <Font name="System Bold Italic" size="22.0" />
+         </font>
+      </Button>
+      <Label fx:id="name" alignment="CENTER" contentDisplay="CENTER" layoutX="189.0" layoutY="200.0" prefHeight="88.0" prefWidth="1010.0" textFill="#eeecee" wrapText="true">
+         <font>
+            <Font name="System Bold" size="60.0" />
+         </font>
+         <effect>
+            <InnerShadow />
+         </effect>
+      </Label>
+      <Button fx:id="Board" layoutX="631.0" layoutY="572.0" mnemonicParsing="false" onAction="#btnBoardAction" prefHeight="48.0" prefWidth="127.0" text="ScoreBoard">
+         <effect>
+            <InnerShadow />
+         </effect>
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

@@ -1,0 +1,481 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="700.0" prefWidth="1366.0" style="-fx-background-color: PeachPuff;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.SolveController">
+   <children>
+      <Button fx:id="btnQuit" layoutX="1135.0" layoutY="566.0" mnemonicParsing="false" onAction="#btnQuitAction" prefHeight="39.0" prefWidth="87.0" text="Quit" textFill="#f50808">
+         <font>
+            <Font name="System Bold" size="21.0" />
+         </font>
+         <effect>
+            <InnerShadow height="18.03" radius="11.4825" width="29.9" />
+         </effect>
+      </Button>
+      <GridPane gridLinesVisible="true" layoutX="228.0" layoutY="26.0" prefHeight="648.0" prefWidth="648.0" style="-fx-background-color: SkyBlue;">
+        <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="72.0" minWidth="10.0" prefWidth="72.0" />
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="72.0" minWidth="10.0" prefWidth="72.0" />
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="72.0" minWidth="10.0" prefWidth="72.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="73.0" minWidth="10.0" prefWidth="63.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="72.0" minWidth="10.0" prefWidth="72.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="72.0" minWidth="10.0" prefWidth="72.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="72.0" minWidth="10.0" prefWidth="72.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="72.0" minWidth="10.0" prefWidth="72.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="72.0" minWidth="10.0" prefWidth="72.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints maxHeight="72.0" minHeight="10.0" prefHeight="72.0" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="72.0" minHeight="10.0" prefHeight="72.0" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="72.0" minHeight="10.0" prefHeight="72.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="72.0" minHeight="10.0" prefHeight="72.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="72.0" minHeight="10.0" prefHeight="42.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="72.0" minHeight="10.0" prefHeight="72.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="72.0" minHeight="10.0" prefHeight="72.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="72.0" minHeight="10.0" prefHeight="43.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="72.0" minHeight="10.0" prefHeight="72.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <TextField fx:id="arr00" alignment="CENTER" prefHeight="72.0" prefWidth="72.0">
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="arr01" alignment="CENTER" prefHeight="72.0" prefWidth="72.0" GridPane.columnIndex="1">
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="arr02" alignment="CENTER" prefHeight="72.0" prefWidth="72.0" GridPane.columnIndex="2">
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="arr03" alignment="CENTER" prefHeight="72.0" prefWidth="72.0" GridPane.columnIndex="3">
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="arr04" alignment="CENTER" prefHeight="72.0" prefWidth="72.0" GridPane.columnIndex="4">
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="arr05" alignment="CENTER" prefHeight="72.0" prefWidth="72.0" GridPane.columnIndex="5">
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="arr06" alignment="CENTER" prefHeight="72.0" prefWidth="72.0" GridPane.columnIndex="6">
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="arr07" alignment="CENTER" prefHeight="72.0" prefWidth="72.0" GridPane.columnIndex="7">
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="arr08" alignment="CENTER" prefHeight="72.0" prefWidth="72.0" GridPane.columnIndex="8">
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="arr10" alignment="CENTER" prefHeight="72.0" prefWidth="72.0" GridPane.rowIndex="1">
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="arr11" alignment="CENTER" prefHeight="72.0" prefWidth="72.0" GridPane.columnIndex="1" GridPane.rowIndex="1">
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="arr12" alignment="CENTER" prefHeight="72.0" prefWidth="72.0" GridPane.columnIndex="2" GridPane.rowIndex="1">
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="arr13" alignment="CENTER" prefHeight="72.0" prefWidth="72.0" GridPane.columnIndex="3" GridPane.rowIndex="1">
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="arr14" alignment="CENTER" prefHeight="72.0" prefWidth="72.0" GridPane.columnIndex="4" GridPane.rowIndex="1">
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="arr15" alignment="CENTER" prefHeight="72.0" prefWidth="72.0" GridPane.columnIndex="5" GridPane.rowIndex="1">
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="arr16" alignment="CENTER" prefHeight="72.0" prefWidth="72.0" GridPane.columnIndex="6" GridPane.rowIndex="1">
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="arr17" alignment="CENTER" prefHeight="72.0" prefWidth="72.0" GridPane.columnIndex="7" GridPane.rowIndex="1">
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="arr18" alignment="CENTER" prefHeight="72.0" prefWidth="72.0" GridPane.columnIndex="8" GridPane.rowIndex="1">
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="arr20" alignment="CENTER" prefHeight="72.0" prefWidth="72.0" GridPane.rowIndex="2">
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="arr21" alignment="CENTER" prefHeight="72.0" prefWidth="72.0" GridPane.columnIndex="1" GridPane.rowIndex="2">
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="arr22" alignment="CENTER" prefHeight="72.0" prefWidth="72.0" GridPane.columnIndex="2" GridPane.rowIndex="2">
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="arr23" alignment="CENTER" prefHeight="72.0" prefWidth="72.0" GridPane.columnIndex="3" GridPane.rowIndex="2">
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="arr24" alignment="CENTER" prefHeight="72.0" prefWidth="72.0" GridPane.columnIndex="4" GridPane.rowIndex="2">
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="arr25" alignment="CENTER" prefHeight="72.0" prefWidth="72.0" GridPane.columnIndex="5" GridPane.rowIndex="2">
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="arr26" alignment="CENTER" prefHeight="72.0" prefWidth="72.0" GridPane.columnIndex="6" GridPane.rowIndex="2">
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="arr27" alignment="CENTER" prefHeight="72.0" prefWidth="72.0" GridPane.columnIndex="7" GridPane.rowIndex="2">
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="arr28" alignment="CENTER" prefHeight="72.0" prefWidth="72.0" GridPane.columnIndex="8" GridPane.rowIndex="2">
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="arr30" alignment="CENTER" prefHeight="72.0" prefWidth="72.0" GridPane.rowIndex="3">
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="arr31" alignment="CENTER" prefHeight="72.0" prefWidth="72.0" GridPane.columnIndex="1" GridPane.rowIndex="3">
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="arr32" alignment="CENTER" layoutX="153.0" layoutY="95.0" prefHeight="72.0" prefWidth="72.0" GridPane.columnIndex="2" GridPane.rowIndex="3">
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="arr0122" alignment="CENTER" prefHeight="72.0" prefWidth="72.0" GridPane.columnIndex="3" GridPane.rowIndex="3">
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="arr33" alignment="CENTER" prefHeight="72.0" prefWidth="72.0" GridPane.columnIndex="3" GridPane.rowIndex="3">
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="arr34" alignment="CENTER" prefHeight="72.0" prefWidth="72.0" GridPane.columnIndex="4" GridPane.rowIndex="3">
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="arr35" alignment="CENTER" prefHeight="72.0" prefWidth="72.0" GridPane.columnIndex="5" GridPane.rowIndex="3">
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="arr36" alignment="CENTER" prefHeight="72.0" prefWidth="72.0" GridPane.columnIndex="6" GridPane.rowIndex="3">
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="arr37" alignment="CENTER" prefHeight="72.0" prefWidth="72.0" GridPane.columnIndex="7" GridPane.rowIndex="3">
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="arr38" alignment="CENTER" prefHeight="72.0" prefWidth="72.0" GridPane.columnIndex="8" GridPane.rowIndex="3">
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="arr40" alignment="CENTER" prefHeight="72.0" prefWidth="72.0" GridPane.rowIndex="4">
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="arr41" alignment="CENTER" prefHeight="72.0" prefWidth="72.0" GridPane.columnIndex="1" GridPane.rowIndex="4">
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="arr42" alignment="CENTER" prefHeight="72.0" prefWidth="72.0" GridPane.columnIndex="2" GridPane.rowIndex="4">
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="arr43" alignment="CENTER" prefHeight="72.0" prefWidth="72.0" GridPane.columnIndex="3" GridPane.rowIndex="4">
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="arr44" alignment="CENTER" prefHeight="72.0" prefWidth="72.0" GridPane.columnIndex="4" GridPane.rowIndex="4">
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="arr45" alignment="CENTER" prefHeight="72.0" prefWidth="72.0" GridPane.columnIndex="5" GridPane.rowIndex="4">
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="arr46" alignment="CENTER" prefHeight="72.0" prefWidth="72.0" GridPane.columnIndex="6" GridPane.rowIndex="4">
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="arr47" alignment="CENTER" prefHeight="72.0" prefWidth="72.0" GridPane.columnIndex="7" GridPane.rowIndex="4">
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="arr48" alignment="CENTER" prefHeight="72.0" prefWidth="72.0" GridPane.columnIndex="8" GridPane.rowIndex="4">
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="arr50" alignment="CENTER" prefHeight="72.0" prefWidth="72.0" GridPane.rowIndex="5">
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="arr51" alignment="CENTER" prefHeight="72.0" prefWidth="72.0" GridPane.columnIndex="1" GridPane.rowIndex="5">
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="arr52" alignment="CENTER" prefHeight="72.0" prefWidth="72.0" GridPane.columnIndex="2" GridPane.rowIndex="5">
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="arr53" alignment="CENTER" prefHeight="72.0" prefWidth="72.0" GridPane.columnIndex="3" GridPane.rowIndex="5">
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="arr54" alignment="CENTER" prefHeight="72.0" prefWidth="72.0" GridPane.columnIndex="4" GridPane.rowIndex="5">
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="arr55" alignment="CENTER" prefHeight="72.0" prefWidth="72.0" GridPane.columnIndex="5" GridPane.rowIndex="5">
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="arr56" alignment="CENTER" prefHeight="72.0" prefWidth="72.0" GridPane.columnIndex="6" GridPane.rowIndex="5">
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="arr57" alignment="CENTER" prefHeight="72.0" prefWidth="72.0" GridPane.columnIndex="7" GridPane.rowIndex="5">
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="arr58" alignment="CENTER" prefHeight="72.0" prefWidth="72.0" GridPane.columnIndex="8" GridPane.rowIndex="5">
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="arr60" alignment="CENTER" prefHeight="72.0" prefWidth="72.0" GridPane.rowIndex="6">
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="arr61" alignment="CENTER" prefHeight="72.0" prefWidth="72.0" GridPane.columnIndex="1" GridPane.rowIndex="6">
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="arr62" alignment="CENTER" prefHeight="72.0" prefWidth="72.0" GridPane.columnIndex="2" GridPane.rowIndex="6">
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="arr63" alignment="CENTER" prefHeight="72.0" prefWidth="72.0" GridPane.columnIndex="3" GridPane.rowIndex="6">
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="arr64" alignment="CENTER" prefHeight="72.0" prefWidth="72.0" GridPane.columnIndex="4" GridPane.rowIndex="6">
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="arr65" alignment="CENTER" prefHeight="72.0" prefWidth="72.0" GridPane.columnIndex="5" GridPane.rowIndex="6">
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="arr66" alignment="CENTER" prefHeight="72.0" prefWidth="72.0" GridPane.columnIndex="6" GridPane.rowIndex="6">
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="arr67" alignment="CENTER" prefHeight="72.0" prefWidth="72.0" GridPane.columnIndex="7" GridPane.rowIndex="6">
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="arr68" alignment="CENTER" prefHeight="72.0" prefWidth="72.0" GridPane.columnIndex="8" GridPane.rowIndex="6">
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="arr70" alignment="CENTER" prefHeight="72.0" prefWidth="72.0" GridPane.rowIndex="7">
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="arr71" alignment="CENTER" prefHeight="72.0" prefWidth="72.0" GridPane.columnIndex="1" GridPane.rowIndex="7">
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="arr72" alignment="CENTER" prefHeight="72.0" prefWidth="72.0" GridPane.columnIndex="2" GridPane.rowIndex="7">
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="arr73" alignment="CENTER" prefHeight="72.0" prefWidth="72.0" GridPane.columnIndex="3" GridPane.rowIndex="7">
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="arr74" alignment="CENTER" prefHeight="72.0" prefWidth="72.0" GridPane.columnIndex="4" GridPane.rowIndex="7">
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="arr75" alignment="CENTER" prefHeight="72.0" prefWidth="72.0" GridPane.columnIndex="5" GridPane.rowIndex="7">
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="arr76" alignment="CENTER" prefHeight="72.0" prefWidth="72.0" GridPane.columnIndex="6" GridPane.rowIndex="7">
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="arr77" alignment="CENTER" prefHeight="72.0" prefWidth="72.0" GridPane.columnIndex="7" GridPane.rowIndex="7">
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="arr78" alignment="CENTER" prefHeight="72.0" prefWidth="72.0" GridPane.columnIndex="8" GridPane.rowIndex="7">
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="arr80" alignment="CENTER" prefHeight="72.0" prefWidth="72.0" GridPane.rowIndex="8">
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="arr81" alignment="CENTER" prefHeight="72.0" prefWidth="72.0" GridPane.columnIndex="1" GridPane.rowIndex="8">
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="arr82" alignment="CENTER" prefHeight="72.0" prefWidth="72.0" GridPane.columnIndex="2" GridPane.rowIndex="8">
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="arr83" alignment="CENTER" prefHeight="72.0" prefWidth="72.0" GridPane.columnIndex="3" GridPane.rowIndex="8">
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="arr84" alignment="CENTER" prefHeight="72.0" prefWidth="72.0" GridPane.columnIndex="4" GridPane.rowIndex="8">
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="arr85" alignment="CENTER" prefHeight="72.0" prefWidth="72.0" GridPane.columnIndex="5" GridPane.rowIndex="8">
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="arr86" alignment="CENTER" prefHeight="72.0" prefWidth="72.0" GridPane.columnIndex="6" GridPane.rowIndex="8">
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="arr87" alignment="CENTER" prefHeight="72.0" prefWidth="72.0" GridPane.columnIndex="7" GridPane.rowIndex="8">
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="arr88" alignment="CENTER" prefHeight="72.0" prefWidth="72.0" GridPane.columnIndex="8" GridPane.rowIndex="8">
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </TextField>
+         </children>
+         <effect>
+            <InnerShadow color="#dacbcb" />
+         </effect>
+      </GridPane>
+      <Button fx:id="btnPlayAgain" ellipsisString="" layoutX="1135.0" layoutY="458.0" mnemonicParsing="false" onAction="#btnPlayAgainAction" prefHeight="82.0" prefWidth="87.0" text=" Play Again" textAlignment="CENTER" textFill="#067cae" wrapText="true">
+         <font>
+            <Font name="System Bold" size="21.0" />
+         </font>
+         <effect>
+            <InnerShadow height="26.93" radius="14.4475" width="32.86" />
+         </effect>
+      </Button>
+      <Button fx:id="btnPrevious" alignment="CENTER" contentDisplay="CENTER" layoutX="1031.0" layoutY="458.0" mnemonicParsing="false" onAction="#btnPreviousAction" prefHeight="153.0" prefWidth="87.0" text="Back to Menu" textAlignment="CENTER" textFill="#e107c0" wrapText="true">
+         <font>
+            <Font name="System Bold" size="21.0" />
+         </font>
+         <effect>
+            <InnerShadow height="26.93" radius="12.965" width="26.93" />
+         </effect>
+      </Button>
+   </children>
+   <effect>
+      <InnerShadow />
+   </effect>
+</AnchorPane>

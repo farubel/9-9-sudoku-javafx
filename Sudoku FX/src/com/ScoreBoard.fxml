@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="700.0" prefWidth="1633.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.ScoreBoardController">
+   <children>
+      <ImageView fitHeight="700.0" fitWidth="1633.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@back.jpg" />
+         </image>
+      </ImageView>
+      <Label fx:id="score" alignment="TOP_LEFT" contentDisplay="CENTER" layoutX="111.0" layoutY="119.0" lineSpacing="2.0" prefHeight="423.0" prefWidth="466.0" style="-fx-background-color: Aqua;" textAlignment="JUSTIFY" textFill="#de04b7" wrapText="true">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <Button fx:id="btnPrevious" alignment="CENTER" contentDisplay="CENTER" layoutX="1062.0" layoutY="590.0" mnemonicParsing="false" onAction="#btnPreviousAction" prefHeight="66.0" prefWidth="90.0" text="Back to Menu" textAlignment="CENTER" textFill="#e107c0" wrapText="true">
+         <effect>
+            <InnerShadow height="26.93" radius="12.965" width="26.93" />
+         </effect>
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnQuit" layoutX="1161.0" layoutY="590.0" mnemonicParsing="false" onAction="#btnQuitAction" prefHeight="66.0" prefWidth="90.0" text="Quit" textFill="#f50808">
+         <effect>
+            <InnerShadow />
+         </effect>
+         <font>
+            <Font name="System Bold" size="26.0" />
+         </font>
+      </Button>
+      <Label layoutX="263.0" layoutY="59.0" prefHeight="47.0" prefWidth="162.0" text="ScoreBoard" textFill="#0f6bbc">
+         <font>
+            <Font size="29.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
